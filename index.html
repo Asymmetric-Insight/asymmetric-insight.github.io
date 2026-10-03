@@ -128,17 +128,25 @@
             margin-bottom: 20px;
         }
 
-        .highlight-card {
+        .development-focus {
             margin-top: 30px;
-            padding: 20px;
-            background: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            padding: 20px 24px;
+            background-color: #f1f5f9;
+            border-left: 4px solid var(--secondary);
+            border-radius: 4px;
+            color: #0f172a;
+            font-size: 1.15rem;
+            font-weight: 400;
+            line-height: 1.6;
+            
+            /* FORCES OUTLINE REMOVAL */
+            -webkit-text-stroke: 0 !important;
+            text-shadow: none !important;
         }
 
-        .highlight-card p {
-            margin: 0;
-            font-size: 1.05rem;
+        .development-focus strong {
+            color: var(--primary);
+            font-weight: 700;
         }
 
         .services-list {
@@ -343,8 +351,8 @@
             <p>Asymmetric Insight bridges the gap between physical environmental science and modern data architecture. Founded on a rigorous background in <strong>Environmental Engineering</strong>—with specialized expertise in pollution transport and control processes—we don't just move data; we understand the science and compliance requirements behind it.</p>
             <p>We build intelligent automation systems that simplify environmental reporting, streamline regulatory workflows, and transform complex environmental metrics into actionable insights.</p>
 
-            <div class="highlight-card">
-                <p><strong>Current Development Focus:</strong> Integrating <strong>Microsoft Copilot, Power BI, Fabric, and automation workflows</strong> into next-generation environmental and ESG data models.</p>
+            <div class="development-focus">
+                <strong>What We're Building:</strong> Integrating Microsoft Copilot, Power BI, and Fabric into next-generation environmental data models that transform complex ESG metrics into automated, audit-ready action.
             </div>
         </section>
 
